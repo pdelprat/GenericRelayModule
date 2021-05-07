@@ -1,0 +1,24 @@
+{
+  "name": "GenericRelayModule",
+  "version": "0.5.0",
+  "description": "Sample relay module for Cisco SecureX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pascal.delprat@online.fr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "js-base64": "^3.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.7",
+    "morgan-body": "^2.6.5",
+    "node-fetch": "^2.6.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "secureX": {
+    "client_id": "",
+    "client_secret": "",
+    "url": "https://visibility.eu.amp.cisco.com",
+    "urlSecureX": "https://securex.eu.security.cisco.com"
+  },
+  "mongoDB": {
+    "url": "mongodb://localhost:27017/SecureX?readPreference=primary&appname=RelayModule&ssl=false"
+  }
+}
